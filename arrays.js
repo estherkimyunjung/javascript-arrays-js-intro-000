@@ -43,11 +43,3 @@ function removeElementFromEndOfArray(array) {
   var result = array.slice(0, array.length - 1);
   return result
 }
-
-
-
-
-
-
-
-
