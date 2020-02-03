@@ -1,17 +1,17 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
-  chocolateBars.unshift(chocolateBars,'foo');
+  var array = chocolateBars.unshift(element);
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  ["foo", ...chocolateBars]
+  var array = [element, ...chocolateBars]
 }
 
 function addElementToEndOfArray(array, element) {
-  chocolateBars.push("foo");
+  var array = chocolateBars.push(element);
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  [...chocolateBars, "foo"]
+  [...chocolateBars,element]
 }
